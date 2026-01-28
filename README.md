@@ -27,7 +27,7 @@ The projects are categorized below based on the problem type (Regression, Classi
 | `11_SVM-Diamond-Price-Prediction-Regression.py`* | Estimating Diamond Prices. | **SVR vs Linear Regression** trade-off, Outlier Removal. |
 | `18_Gym-Crowdedness-Prediction-Analysis.py`* | Predicting Gym Crowdedness. | **Random Forest** performance on non-linear time-series data. |
 | `6_WWII_Weather_Regression_Analysis.py`* | WWII Weather Temperature Analysis. | **LassoCV** (Regularization), Date/Time feature extraction. |
-
+| `22_California_Housing_Price_Prediction_XGBoost.py`* | Predicting House Prices. | **Model Benchmarking** (Linear vs Trees), **XGBoost Hyperparameter Tuning**, Outlier Removal. |
 ### 🔹 Classification Projects (Predicting Categories)
 | File Name | Description | Key Techniques |
 | :--- | :--- | :--- |
