@@ -38,6 +38,7 @@ The projects are categorized below based on the problem type (Regression, Classi
 | `12_Naive_bayes-Iris-Species-Classification-Comparison.py`* | Iris Species Classification. | **Naive Bayes vs SVM** (Kernel Trick comparison). |
 | `14_Decision-Tree-Classification-Projects.py`* | Car Evaluation & Iris Analysis. | **Ordinal Encoding**, Decision Tree Visualization. |
 | `20_Gradient-Boosting-Advanced-Analysis.py`* | Heart Disease & Concrete Strength. | **Gradient Boosting** (Reg & Clf), Correlation Filtering. |
+| `23_Titanic_LightGBM_XGBoost_Comparison.py`* | Titanic Survival Analysis. | **LightGBM vs XGBoost**, RandomizedSearchCV, Feature Importance Visualization. |
 
 ### 🔹 Advanced Machine Learning Applications
 | File Name | Description | Key Techniques |
