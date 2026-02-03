@@ -6,10 +6,10 @@ All project files are located in the root directory for easy access.
 
 ## 🛠️ Tech Stack & Libraries
 * **Languages:** Python, SQL
-* **Data Analysis:** Pandas, NumPy
+* **Data Analysis:** Pandas, NumPy, SciPy
 * **Visualization:** Matplotlib, Seaborn
-* **Machine Learning:** Scikit-Learn, XGBoost, LazyPredict
-* **Algorithms:** Linear/Logistic Regression, SVM, KNN, Decision Trees, Random Forest, AdaBoost, Gradient Boosting
+* **Machine Learning:** Scikit-Learn, XGBoost, LightGBM, Imbalanced-Learn, LazyPredict
+* **Algorithms:** Linear/Logistic Regression, SVM, KNN, Decision Trees, Random Forest, AdaBoost, Gradient Boosting, LightGBM
 
 ---
 
@@ -28,6 +28,8 @@ The projects are categorized below based on the problem type (Regression, Classi
 | `18_Gym-Crowdedness-Prediction-Analysis.py`* | Predicting Gym Crowdedness. | **Random Forest** performance on non-linear time-series data. |
 | `6_WWII_Weather_Regression_Analysis.py`* | WWII Weather Temperature Analysis. | **LassoCV** (Regularization), Date/Time feature extraction. |
 | `22_California_Housing_Price_Prediction_XGBoost.py`* | Predicting House Prices. | **Model Benchmarking** (Linear vs Trees), **XGBoost Hyperparameter Tuning**, Outlier Removal. |
+| `24_Boston_Housing_Power_Transformation.py`* | Improving Linear Regression Performance. | **Yeo-Johnson & Box-Cox Transformations**, Handling Skewness. |
+| `25_Medical_Cost_LGBM_BoxCox_Regression.py`* | Predicting Medical Insurance Costs. | **Box-Cox Target Transformation**, LightGBM, RandomizedSearchCV. |
 ### 🔹 Classification Projects (Predicting Categories)
 | File Name | Description | Key Techniques |
 | :--- | :--- | :--- |
