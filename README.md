@@ -30,6 +30,7 @@ The projects are categorized below based on the problem type (Regression, Classi
 | `22_California_Housing_Price_Prediction_XGBoost.py`* | Predicting House Prices. | **Model Benchmarking** (Linear vs Trees), **XGBoost Hyperparameter Tuning**, Outlier Removal. |
 | `24_Boston_Housing_Power_Transformation.py`* | Improving Linear Regression Performance. | **Yeo-Johnson & Box-Cox Transformations**, Handling Skewness. |
 | `25_Medical_Cost_LGBM_BoxCox_Regression.py`* | Predicting Medical Insurance Costs. | **Box-Cox Target Transformation**, LightGBM, RandomizedSearchCV. |
+| `26_California_Housing_Universal_Optimization.py`* | Automated Model Selection Pipeline. | **Universal Hyperparameter Tuning Function**, 9-Model Leaderboard, PowerTransformer. |
 ### 🔹 Classification Projects (Predicting Categories)
 | File Name | Description | Key Techniques |
 | :--- | :--- | :--- |
