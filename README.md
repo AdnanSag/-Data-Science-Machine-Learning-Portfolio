@@ -51,6 +51,7 @@ The projects are categorized below based on the problem type (Regression, Classi
 | `10_Advanced_Logistic_Regression.py`* | Fraud & Cyber Attack Detection. | **Class Weights** optimization, One-vs-Rest / One-vs-One strategies. |
 | `13_KNN-Health-Energy-Analysis.py`* | Health Risk & Energy Consumption. | Finding optimal 'K' with **Elbow Method**, Feature Scaling. |
 | `9_SVM-Multi-Domain-Analysis.py`* | Email Spam, Loan Risk & Seismic. | SVM Kernel Comparison (Linear, RBF, Poly). |
+| `27_Student_Performance_Dual_Pipeline.py`* | **Dual-Task Student Performance Analysis.** Predicting exact scores (Regression) and Pass/Fail status (Classification). | **Dual-Task Modeling (Reg & Clf)**, RandomizedSearchCV, **Outlier Capping (IQR)**, Automated Model Leaderboard. |
 
 ### 🔹 Data Science Fundamentals & Techniques
 | File Name | Description | Key Techniques |
@@ -63,7 +64,7 @@ The projects are categorized below based on the problem type (Regression, Classi
 
 In these projects, I followed the standard Data Science lifecycle:
 1.  **EDA (Exploratory Data Analysis):** Understanding data distributions, outliers, and correlations.
-2.  **Preprocessing:** Handling missing values (strictly preventing leakage), Scaling (Standard/Robust), and Encoding (One-Hot/Target/Frequency).
+2.  **Preprocessing:** Advanced Data Cleaning including IQR Outlier Capping, Handling missing values (strictly preventing leakage), Scaling (Standard/Robust), and Encoding (One-Hot/Target/Frequency).
 3.  **Model Selection:** Comparing Linear models against Tree-based Ensembles based on data linearity.
 4.  **Optimization:** Using `GridSearchCV` and `RandomizedSearchCV` to fine-tune hyperparameters.
 5.  **Evaluation:** Going beyond Accuracy; utilizing F1-Score, RMSE, R2 Score, and Confusion Matrices for robust evaluation.
