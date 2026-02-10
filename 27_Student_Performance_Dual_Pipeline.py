@@ -1,11 +1,8 @@
 """
-Student Performance ML Pipeline (Düzeltilmiş ve Optimize Edilmiş Versiyon)
+Student Performance ML Pipeline
 --------------------------------------------------------------------------
 Bu script, öğrenci verilerini analiz eder, temizler ve hem regresyon hem de 
 sınıflandırma modelleri kullanarak sınav başarısını tahmin eder.
-
-Kullanım:
-    python main.py
 """
 
 # =========================
@@ -167,7 +164,7 @@ def run_model_tuning(X_train, y_train, X_test, y_test, models, task="regression"
 
         print(f" -> {name} optimize ediliyor...")
 
-        # Hızlı sonuç için n_iter=10 (Iterasyon sayısı artırılabilir)
+        # Hızlı sonuç için n_iter=10
         search = RandomizedSearchCV(
             model,
             params,
@@ -249,7 +246,7 @@ def main():
         sys.exit(1)
 
     # 2. EDA (İsteğe bağlı görselleştirme)
-    # plot_distributions(df) # Grafikleri görmek isterseniz yorumu kaldırın
+    plot_distributions(df)
 
     # 3. Ön İşleme
     df = preprocess_data(df)

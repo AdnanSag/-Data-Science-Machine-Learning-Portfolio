@@ -65,6 +65,7 @@ def check_skewness(df):
     print(skew_vals.head(5)) # En çarpık 5 özellik
     print("--------------------------------------")
 
+
 def inverse_boxcox(y, lambda_):
     """Box-Cox dönüşümünü tersine çevirir (Tahminleri orijinal birime döndürmek için)."""
     if lambda_ == 0:
@@ -83,7 +84,7 @@ if __name__ == "__main__":
         
         # Orijinal Veri Dağılımını Görselleştir
         plot_all_histogram(df, title_prefix="Original")
-
+    
         X = df.drop("MEDV", axis=1)
         y = df["MEDV"]
 
