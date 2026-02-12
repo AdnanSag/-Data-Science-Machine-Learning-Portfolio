@@ -9,7 +9,7 @@ All project files are located in the root directory for easy access.
 * **Data Analysis:** Pandas, NumPy, SciPy
 * **Visualization:** Matplotlib, Seaborn
 * **Machine Learning:** Scikit-Learn, XGBoost, LightGBM, Imbalanced-Learn, LazyPredict
-* **Algorithms:** Linear/Logistic Regression, SVM, KNN, Decision Trees, Random Forest, AdaBoost, Gradient Boosting, LightGBM, Principal Component Analysis (PCA)
+* **Algorithms:** Linear/Logistic Regression, SVM, KNN, Decision Trees, Random Forest, AdaBoost, Gradient Boosting, LightGBM, Principal Component Analysis (PCA), K-Means, Hierarchical Clustering, DBSCAN
 
 ---
 
@@ -61,12 +61,17 @@ The projects are categorized below based on the problem type (Regression, Classi
 | `7_Python_SQL_Database_Basics.py`* | Student Database System with SQL. | SQLite, Table Creation (DDL), Data Manipulation (DML). |
 ---
 
+### 🔹 Unsupervised Learning (Clustering)
+| File Name | Description | Key Techniques |
+| :--- | :--- | :--- |
+| `29_Clustering_Algorithms_Analysis.py`* | Customer & Pedestrian Segmentation. | **K-Means (Elbow Method)**, **Hierarchical (Dendrograms)**, **DBSCAN** for spatial data, Silhouette Score Analysis. |
+
 ## 📊 Methodology & Approach
 
 In these projects, I followed the standard Data Science lifecycle:
 1.  **EDA (Exploratory Data Analysis):** Understanding data distributions, outliers, and correlations.
 2.  **Preprocessing:** Advanced Data Cleaning including IQR Outlier Capping, Dimensionality Reduction (PCA) for high-dimensional datasets , Handling missing values (strictly preventing leakage), Scaling (Standard/Robust), and Encoding (One-Hot/Target/Frequency).
-3.  **Model Selection:** Comparing Linear models against Tree-based Ensembles based on data linearity.
+3. **Model Selection:** Comparing Linear models vs. Tree-based Ensembles for supervised tasks, and evaluating K-Means vs. DBSCAN for clustering problems.
 4.  **Optimization:** Using `GridSearchCV` and `RandomizedSearchCV` to fine-tune hyperparameters.
 5.  **Evaluation:** Going beyond Accuracy; utilizing F1-Score, RMSE, R2 Score, and Confusion Matrices for robust evaluation.
 
