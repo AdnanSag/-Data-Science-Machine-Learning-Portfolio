@@ -73,3 +73,65 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+ --> n=4
+
+--- SCALED DATA RESULTS ---
+
+Logistic Regression Results:
+Accuracy: 0.9580
+Confusion Matrix:
+ [[49  4]
+ [ 2 88]]
+------------------------------
+Gradient Boosting Results:
+Accuracy: 0.9441
+Confusion Matrix:
+ [[46  7]
+ [ 1 89]]
+
+--- PCA RESULTS (n=4) ---
+
+Logistic Regression Results:
+Accuracy: 0.9371
+Confusion Matrix:
+ [[48  5]
+ [ 4 86]]
+------------------------------
+Gradient Boosting Results:
+Accuracy: 0.9161
+Confusion Matrix:
+ [[48  5]
+ [ 7 83]]
+ 
+ 
+ --> n=2
+ --- SCALED DATA RESULTS ---
+
+Logistic Regression Results:
+Accuracy: 0.9580
+Confusion Matrix:
+ [[49  4]
+ [ 2 88]]
+------------------------------
+Gradient Boosting Results:
+Accuracy: 0.9510
+Confusion Matrix:
+ [[47  6]
+ [ 1 89]]
+
+--- PCA RESULTS (n=4) ---
+
+Logistic Regression Results:
+Accuracy: 0.9161
+Confusion Matrix:
+ [[47  6]
+ [ 6 84]]
+------------------------------
+Gradient Boosting Results:
+Accuracy: 0.8811
+Confusion Matrix:
+ [[45  8]
+ [ 9 81]]
+"""
