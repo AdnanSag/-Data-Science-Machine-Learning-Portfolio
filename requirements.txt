@@ -1,0 +1,19 @@
+# Veri Manipülasyonu ve Analizi
+pandas
+numpy
+scipy
+
+# Veri Görselleştirme
+matplotlib
+seaborn
+plotly
+
+# Makine Öğrenmesi Algoritmaları ve Araçları
+scikit-learn
+xgboost
+lightgbm
+imbalanced-learn
+
+# AutoML ve Optimizasyon
+lazypredict
+kneed
