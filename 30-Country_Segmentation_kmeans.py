@@ -111,7 +111,7 @@ def world_visualization(df2):
 def main():
     df2 = load_data("29-country_data.csv")
     #analyzing(df2)
-    #plot_all_histograms(df2)
+    plot_all_histograms(df2)
         
     df = df2.drop("country",axis=1)
 
