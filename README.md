@@ -7,9 +7,10 @@ All project files are located in the root directory for easy access.
 ## 🛠️ Tech Stack & Libraries
 * **Languages:** Python, SQL
 * **Data Analysis:** Pandas, NumPy, SciPy
-* **Visualization:** Matplotlib, Seaborn
+* **Visualization:** Matplotlib, Seaborn ,Plotly Express
 * **Machine Learning:** Scikit-Learn, XGBoost, LightGBM, Imbalanced-Learn, LazyPredict
 * **Algorithms:** Linear/Logistic Regression, SVM, KNN, Decision Trees, Random Forest, AdaBoost, Gradient Boosting, LightGBM, Principal Component Analysis (PCA), K-Means, Hierarchical Clustering, DBSCAN
+* **Optimization Tools:** Kneed (KneeLocator)
 
 ---
 
@@ -61,10 +62,11 @@ The projects are categorized below based on the problem type (Regression, Classi
 | `7_Python_SQL_Database_Basics.py`* | Student Database System with SQL. | SQLite, Table Creation (DDL), Data Manipulation (DML). |
 ---
 
-### 🔹 Unsupervised Learning (Clustering)
+### 🔹 Unsupervised Learning & Dimensionality Reduction
 | File Name | Description | Key Techniques |
 | :--- | :--- | :--- |
-| `29_Clustering_Algorithms_Analysis.py`* | Customer & Pedestrian Segmentation. | **K-Means (Elbow Method)**, **Hierarchical (Dendrograms)**, **DBSCAN** for spatial data, Silhouette Score Analysis. |
+| `29_Clustering_Algorithms_Analysis.py` | Comparison of K-Means, Agglomerative, and DBSCAN. | Silhouette Analysis, Dendrograms, EPS Optimization. |
+| `30_Country_Segmentation_PCA_KMeans.py` | Strategic Country Analysis for Resource Allocation. | PCA (3-Components), K-Means, Interative Geographic Visualization. |
 
 ## 📊 Methodology & Approach
 
