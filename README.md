@@ -27,17 +27,16 @@ Tüm proje dosyaları, kolay erişim için kök dizinde (root directory) bulunma
 ## 📸 Örnek Proje Çıktıları ve Görselleştirmeler
 
 ### 1. Model Performansı ve Özellik Önemi (Feature Importance)
-![Feature Importance](https://via.placeholder.com/800x400.png?text=Buraya+XGBoost/LightGBM+Feature+Importance+Gorseli+Gelecek)
-*Ağaç tabanlı modellerde (XGBoost/LightGBM) hangi özelliklerin tahmine en çok etki ettiğinin analizi.*
+![Feature Importance - LightGBM Titanic](images/ağaç.png)
+*Ağaç tabanlı modellerde (LightGBM) hangi özelliklerin tahmine en çok etki ettiğinin analizi (Titanic veri seti örneği).*
 
 ### 2. Keşifçi Veri Analizi (EDA) ve Korelasyon
-![Korelasyon Matrisi](https://via.placeholder.com/800x400.png?text=Buraya+Korelasyon+Matrisi+Isi+Haritasi+Gelecek)
-*Veri setindeki değişkenler arasındaki ilişkilerin ısı haritası (heatmap) ile incelenmesi ve çoklu doğrusal bağlantı (multicollinearity) kontrolü.*
+![Korelasyon Matrisi](images/corr.png)
+*Veri setindeki değişkenler arasındaki ilişkilerin ısı haritası (heatmap) ile incelenmesi ve çoklu doğrusal bağlantı kontrolü.*
 
 ### 3. Coğrafi Segmentasyon ve Kümeleme Haritası
-![Dünya Haritası Kümeleme](https://via.placeholder.com/800x400.png?text=Buraya+Plotly+Dunya+Haritasi+Gorseli+Gelecek)
+![Dünya Haritası Kümeleme](images/newplot.png)
 *K-Means ve PCA kullanılarak ülkelerin sosyo-ekonomik durumlarına göre harita üzerinde interaktif segmentasyonu.*
-
 ---
 
 ## 📂 Proje Kataloğu
