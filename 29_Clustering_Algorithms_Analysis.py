@@ -205,7 +205,7 @@ def dbscancluster():
     df_scaled_matrix = scaling(df)
     df_scaled=pd.DataFrame(df_scaled_matrix,columns=["x_position","y_position"])
 
-    # 5. Model 
+    # model 
     eps_values= [0.1,0.2,0.3,0.4,0.5,0.6]
     min_samples_values = [4,5,6]
     results=[]
