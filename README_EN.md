@@ -127,8 +127,7 @@ In these projects, I followed the standard Data Science lifecycle:
 ## 📬 Contact
 
 If you'd like to talk about my projects or collaborate, feel free to reach out:
-* **LinkedIn:** [Add Your Profile Here](https://www.linkedin.com/in/)
-* **Kaggle:** [Add Your Profile Here](https://www.kaggle.com/)
-* **Email:** yourname@email.com
+* **LinkedIn:** https://www.linkedin.com/in/adnan-sag/ 
+* **Email:** adnansag91@gmail.com
 
 *Created by Adnan Sag*
