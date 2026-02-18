@@ -27,15 +27,15 @@ All project files are located in the root directory for easy access.
 ## 📸 Example Project Outputs & Visualizations
 
 ### 1. Model Performance & Feature Importance
-![Feature Importance - LightGBM Titanic](image_3.png)
+![Feature Importance - LightGBM Titanic](images/ağaç.png)
 *Analysis of feature contributions in tree-based ensemble models (LightGBM) using the Titanic dataset.*
 
 ### 2. Exploratory Data Analysis (EDA) & Correlation
-![Correlation Matrix](image_0.png)
+![Correlation Matrix](images/corr.png)
 *Investigating relationships between variables and checking for multicollinearity using a correlation heatmap.*
 
 ### 3. Geospatial Segmentation & Clustering Map
-![World Map Clustering](image_1.png)
+![World Map Clustering](images/newplot.png)
 *Global socio-economic segmentation of countries mapped out interactively using K-Means and PCA.*
 
 ---
