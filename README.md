@@ -127,8 +127,7 @@ Bu projelerde standart Veri Bilimi yaşam döngüsünü izledim:
 ## 📬 İletişim
 
 Projelerim hakkında konuşmak veya işbirliği yapmak isterseniz bana ulaşabilirsiniz:
-* **LinkedIn:** [Profilinizi Buraya Ekleyin](https://www.linkedin.com/in/)
-* **Kaggle:** [Profilinizi Buraya Ekleyin](https://www.kaggle.com/)
-* **E-posta:** adiniz@email.com
+* **LinkedIn:** https://www.linkedin.com/in/adnan-sag/ 
+* **E-posta:** adnansag91@gmail.com
 
 *Created by Adnan Sag*
