@@ -19,7 +19,7 @@ plt.rcParams["figure.figsize"] = (14, 6)
 
 # 1. Veri Yükleme ve Temizleme
 # low_memory=False: Büyük dosyalarda tip çıkarımı uyarısını önler
-df = pd.read_csv("Summary of Weather.csv", low_memory=False)
+df = pd.read_csv("datasets/Summary of Weather.csv", low_memory=False)
 
 # Sütun isimlerindeki boşlukları temizle
 df.columns = df.columns.str.strip()

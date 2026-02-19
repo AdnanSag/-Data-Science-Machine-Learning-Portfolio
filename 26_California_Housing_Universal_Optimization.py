@@ -153,7 +153,7 @@ def check_skewness(df):
 
 # --- ANA UYGULAMA ---
 if __name__ == "__main__":
-    filepath = "21-housing.csv" 
+    filepath = "datasets/21-housing.csv" 
     
     df = load_data(filepath)
     

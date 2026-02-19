@@ -119,7 +119,7 @@ def train_svr_grid_search(X_train, X_test, y_train, y_test):
 if __name__ == "__main__":
     # 1. Veri Yükleme ve Temizlik
     print("Loading data...")
-    df = load_and_clean_data("10-diamonds.csv")
+    df = load_and_clean_data("datasets/10-diamonds.csv")
     
     # 2. Aykırı Değerlerin Temizlenmesi
     df = remove_outliers(df)

@@ -92,7 +92,7 @@ def plot_feature_importance(model):
 
 if __name__ == "__main__":
     # 1. Veri Hazırlığı
-    X_train, X_test, y_train, y_test, class_names = load_and_preprocess_data("20-digitalskysurvey.csv")
+    X_train, X_test, y_train, y_test, class_names = load_and_preprocess_data("datasets/20-digitalskysurvey.csv")
     
     if X_train is not None:
         print(f"Classes detected: {class_names}")

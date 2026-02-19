@@ -53,7 +53,7 @@ def kmeancluster():
     print("\n--- K-Means Clustering Başlıyor ---")
     
     # 1. Veri Yükleme
-    df = load_data("26-customer_data.csv")
+    df = load_data("datasets/26-customer_data.csv")
     if df is None: return
 
     # Sütun isimlendirme kontrolü
@@ -133,7 +133,7 @@ def kmeancluster():
 def hierarchicalcluster():
     print("\n--- Hierarchical Clustering Başlıyor ---")
     # 1. Veri Yükleme
-    df = load_data("27-mall_customers.csv")
+    df = load_data("datasets/27-mall_customers.csv")
     if df is None: return
 
     # 2. Histogramlar
@@ -191,7 +191,7 @@ def hierarchicalcluster():
 def dbscancluster():
     print("\n--- DBScan Clustering Başlıyor ---")
     # 1. Veri Yükleme
-    df = load_data("28-urban_pedestrian_locations_with_labels.csv")
+    df = load_data("datasets/28-urban_pedestrian_locations_with_labels.csv")
     if df is None: return
 
     # 2. Histogramlar

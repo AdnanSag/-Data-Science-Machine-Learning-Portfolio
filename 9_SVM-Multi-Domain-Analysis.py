@@ -59,7 +59,7 @@ def run_email_classification():
     print("CASE 1: Email Classification (Spam Detection)")
     print("="*40)
     
-    X_train, X_test, y_train, y_test = preprocess_data("9-email_classification_svm.csv", "email_type")
+    X_train, X_test, y_train, y_test = preprocess_data("datasets/9-email_classification_svm.csv", "email_type")
     
     if X_train is not None:
         model = SVC(kernel="linear", random_state=15)
@@ -74,7 +74,7 @@ def run_loan_risk_analysis():
     print("CASE 2: Loan Risk Analysis (Kernel Comparison)")
     print("="*40)
     
-    X_train, X_test, y_train, y_test = preprocess_data("9-loan_risk_svm.csv", "loan_risk")
+    X_train, X_test, y_train, y_test = preprocess_data("datasets/9-loan_risk_svm.csv", "loan_risk")
     
     if X_train is not None:
         # Farklı çekirdek (kernel) fonksiyonlarının karşılaştırılması
@@ -108,7 +108,7 @@ def run_seismic_activity_analysis():
     print("CASE 3: Seismic Activity Detection (Non-Linear)")
     print("="*40)
     
-    X_train, X_test, y_train, y_test = preprocess_data("9-seismic_activity_svm.csv", "seismic_event_detected")
+    X_train, X_test, y_train, y_test = preprocess_data("datasets/9-seismic_activity_svm.csv", "seismic_event_detected")
     
     if X_train is not None:
         # RBF Kernel karmaşık ve doğrusal olmayan düzlemleri ayırmak için idealdir

@@ -13,7 +13,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # ==========================================
 
 # 1. Veri Yükleme ve Görselleştirme
-df = pd.read_csv("1-studyhours.csv")
+df = pd.read_csv("datasets/1-studyhours.csv")
 
 plt.figure(figsize=(10, 6))
 plt.scatter(df["Study Hours"], df["Exam Score"], color='blue', alpha=0.6)
@@ -64,7 +64,7 @@ print("-" * 30)
 # ==========================================
 
 # 1. Veri Yükleme ve Temizleme
-df_multi = pd.read_csv("2-multiplegradesdataset.csv")
+df_multi = pd.read_csv("datasets/2-multiplegradesdataset.csv")
 
 # Eksik verileri temizleme
 columns_to_check = ['Study Hours', 'Sleep Hours', 'Attendance Rate', 'Social Media Hours', 'Exam Score']

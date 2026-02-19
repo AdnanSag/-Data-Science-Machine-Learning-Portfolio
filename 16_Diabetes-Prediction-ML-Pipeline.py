@@ -5,7 +5,7 @@ import seaborn as sns
 
 ##diabetes dataset
 
-df=pd.read_csv("16-diabetes.csv")
+df=pd.read_csv("datasets/16-diabetes.csv")
 columns_to_check = ["Glucose","BloodPressure","SkinThickness","Insulin","BMI"]
 X=df.drop("Outcome",axis=1)
 y=df['Outcome']

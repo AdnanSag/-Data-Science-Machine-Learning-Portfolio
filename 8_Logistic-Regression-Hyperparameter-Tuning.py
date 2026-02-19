@@ -107,7 +107,7 @@ def run_hyperparameter_tuning(X_train, y_train):
 
 # 1. Veri Hazırlığı
 # Not: Dosya yolunu kendi sistemine göre güncellemelisin
-X_train, X_test, y_train, y_test = load_and_preprocess_data("6-bank_customers.csv")
+X_train, X_test, y_train, y_test = load_and_preprocess_data("datasets/6-bank_customers.csv")
 
 # 2. Ölçeklendirme (Scaling)
 X_train_scaled, X_test_scaled = scale_features(X_train, X_test)

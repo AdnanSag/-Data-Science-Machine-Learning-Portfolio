@@ -30,11 +30,11 @@ def load_data():
     
     try:
         # delimiter=r"\s+" boşlukla ayrılmış dosyaları okur
-        df = pd.read_csv("23-boston.csv", header=None, delimiter=r"\s+", names=column_names)
+        df = pd.read_csv("datasets/23-boston.csv", header=None, delimiter=r"\s+", names=column_names)
         print("Veri Seti Yüklendi. Boyut:", df.shape)
         return df
     except FileNotFoundError:
-        print("Hata: '23-boston.csv' dosyası bulunamadı.")
+        print("Hata: 'datasets/23-boston.csv' dosyası bulunamadı.")
         return None
 
 def plot_all_histogram(df, title_prefix=""):

@@ -145,7 +145,7 @@ def run_heart_classification(filepath):
 # --- ANA UYGULAMA ---
 if __name__ == "__main__":
     # Regression Görevi
-    run_concrete_regression("18-concrete_data.csv")
+    run_concrete_regression("datasets/18-concrete_data.csv")
     
     # Classification Görevi
-    run_heart_classification("19-heart.csv")
+    run_heart_classification("datasets/19-heart.csv")

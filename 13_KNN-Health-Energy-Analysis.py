@@ -133,7 +133,7 @@ def run_regression_task(filepath):
 # --- ANA UYGULAMA ---
 if __name__ == "__main__":
     # Classification Görevi
-    run_classification_task("12-health_risk_classification.csv")
+    run_classification_task("datasets/12-health_risk_classification.csv")
     
     # Regression Görevi
-    run_regression_task("12-house_energy_regression.csv")
+    run_regression_task("datasets/12-house_energy_regression.csv")

@@ -95,7 +95,7 @@ def run_hyperparameter_tuning(X_train, y_train):
 
 if __name__ == "__main__":
     # 1. Veri Hazırlığı
-    X_train, X_test, y_train, y_test = load_and_clean_data("16-diabetes.csv")
+    X_train, X_test, y_train, y_test = load_and_clean_data("datasets/16-diabetes.csv")
     
     if X_train is not None:
         # 2. Ölçeklendirme

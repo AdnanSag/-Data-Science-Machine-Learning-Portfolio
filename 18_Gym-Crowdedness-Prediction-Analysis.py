@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("15-gym_crowdedness.csv")
+df = pd.read_csv("datasets/15-gym_crowdedness.csv")
 df["date"] = pd.to_datetime(df['date'],utc=True)
 df["year"]= df["date"].dt.year
 df.drop("date",axis=1,inplace=True)

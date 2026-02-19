@@ -141,7 +141,7 @@ def run_fraud_detection_analysis(filepath):
 # --- ANA UYGULAMA ---
 if __name__ == "__main__":
     # Senaryo 1: Çoklu Sınıflandırma
-    run_cyber_attack_analysis("7-cyber_attack_data.csv")
+    run_cyber_attack_analysis("datasets/7-cyber_attack_data.csv")
     
     # Senaryo 2: Dengesiz Veri Analizi
-    run_fraud_detection_analysis("8-fraud_detection.csv")
+    run_fraud_detection_analysis("datasets/8-fraud_detection.csv")

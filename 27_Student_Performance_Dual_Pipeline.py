@@ -237,7 +237,7 @@ def get_classification_models():
 
 def main():
     # 1. Dosya Okuma
-    file_name = "student_habits_performance.csv"
+    file_name = "datasets/student_habits_performance.csv"
     try:
         df = pd.read_csv(file_name)
         print(f">> '{file_name}' başarıyla yüklendi. Boyut: {df.shape}")

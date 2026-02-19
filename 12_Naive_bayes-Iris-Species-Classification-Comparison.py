@@ -128,7 +128,7 @@ def run_hyperparameter_tuning(X_train, y_train, X_test, y_test):
 
 if __name__ == "__main__":
     # 1. Veri Hazırlığı
-    X_train, X_test, y_train, y_test, encoder = load_and_preprocess_data("11-iris.csv")
+    X_train, X_test, y_train, y_test, encoder = load_and_preprocess_data("datasets/11-iris.csv")
     
     if X_train is not None:
         # 2. Gaussian Naive Bayes Modeli

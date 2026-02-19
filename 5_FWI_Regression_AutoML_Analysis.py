@@ -78,7 +78,7 @@ def evaluate_model(model, X_test, y_test, model_name):
 # --- ANA UYGULAMA AKIŞI ---
 
 # 1. Veri Hazırlığı
-df = load_and_clean_data("4-Algerian_forest_fires_dataset.csv")
+df = load_and_clean_data("datasets/4-Algerian_forest_fires_dataset.csv")
 
 X = df.drop("FWI", axis=1)
 y = df["FWI"]

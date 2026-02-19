@@ -22,7 +22,7 @@ sns.set_style("whitegrid")
 
 def load_data():
     """Veri setini yükler ve temizler."""
-    df = pd.read_csv("24-medical_cost.csv")
+    df = pd.read_csv("datasets/24-medical_cost.csv")
     
     # Gereksiz ID sütunu varsa sil
     if "Id" in df.columns:

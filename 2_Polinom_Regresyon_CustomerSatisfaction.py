@@ -14,7 +14,7 @@ from sklearn.pipeline import Pipeline
 # ==========================================
 
 # 1. Veri Yükleme ve Hazırlık
-df = pd.read_csv("3-customersatisfaction.csv")
+df = pd.read_csv("datasets/3-customersatisfaction.csv")
 
 # Gereksiz index sütununu temizleme
 if "Unnamed: 0" in df.columns:
@@ -76,7 +76,7 @@ print(f"Polynomial Regression (Degree=2) R2 Score: {r2_score(y_test, y_pred_poly
 # ==========================================
 
 # Yeni gelen test verilerini yükleyelim
-new_df = pd.read_csv("3-newdatas.csv")
+new_df = pd.read_csv("datasets/3-newdatas.csv")
 # Sütun isimlendirmesi
 if "0" in new_df.columns:
     new_df.rename(columns={"0": "Customer Satisfaction"}, inplace=True)

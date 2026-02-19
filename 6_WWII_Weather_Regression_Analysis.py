@@ -146,7 +146,7 @@ def plot_performance(y_test, results, feature_names):
 # --- ANA UYGULAMA AKIŞI ---
 
 # 1. Veri Hazırlığı
-df = load_and_clean_data("Summary of Weather.csv")
+df = load_and_clean_data("datasets/Summary of Weather.csv")
 
 # Hedef değişken (MeanTemp) ve Özelliklerin ayrılması
 # 'MeanTemp' hedef olduğu için X'ten çıkarılır, Date ise format gereği modelde kullanılmaz

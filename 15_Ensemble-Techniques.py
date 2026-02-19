@@ -142,7 +142,7 @@ def plot_feature_importance(model, feature_names):
 
 # --- ANA UYGULAMA ---
 if __name__ == "__main__":
-    df = load_and_clean_data("14-income_evaluation.csv")
+    df = load_and_clean_data("datasets/14-income_evaluation.csv")
     
     if df is not None:
         # Ön İşleme

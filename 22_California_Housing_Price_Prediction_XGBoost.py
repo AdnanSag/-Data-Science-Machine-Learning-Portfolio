@@ -141,7 +141,7 @@ def plot_results(model, X_test, y_test):
 
 # --- MAIN EXECUTION ---
 if __name__ == "__main__":
-    filepath = "21-housing.csv" 
+    filepath = "datasets/21-housing.csv" 
     
     df = load_and_preprocess_data(filepath)
     

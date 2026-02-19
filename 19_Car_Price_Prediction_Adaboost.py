@@ -122,7 +122,7 @@ def evaluate_model(y_true, y_pred, title="Model Performance"):
 
 if __name__ == "__main__":
     # 1. Veri Yükleme ve Temizlik
-    df = load_and_clean_data("17-cardekho.csv")
+    df = load_and_clean_data("datasets/17-cardekho.csv")
     
     if df is not None:
         # 2. Görselleştirme (Opsiyonel)

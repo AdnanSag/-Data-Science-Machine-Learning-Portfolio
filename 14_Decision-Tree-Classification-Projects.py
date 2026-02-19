@@ -142,7 +142,7 @@ def run_iris_project(filepath):
 # --- ANA UYGULAMA ---
 if __name__ == "__main__":
     # Car Evaluation Projesi
-    run_car_evaluation_project("13-car_evaluation.csv")
+    run_car_evaluation_project("datasets/13-car_evaluation.csv")
     
     # Iris Projesi
-    run_iris_project("11-iris.csv")
+    run_iris_project("datasets/11-iris.csv")
