@@ -110,7 +110,7 @@ Bu projelerde standart Veri Bilimi yaşam döngüsünü izledim:
 
 1.  Depoyu klonlayın:
     ```bash
-    git clone [https://github.com/AdnanSag/-Data-Science-Machine-Learning-Portfolio.git](https://github.com/AdnanSag/-Data-Science-Machine-Learning-Portfolio.git)
+    git clone https://github.com/AdnanSag/-Data-Science-Machine-Learning-Portfolio.git
     ```
 2.  Bağımlılıkları yükleyin:
     ```bash
