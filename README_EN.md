@@ -111,7 +111,7 @@ In these projects, I followed the standard Data Science lifecycle:
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/AdnanSag/-Data-Science-Machine-Learning-Portfolio.git](https://github.com/AdnanSag/-Data-Science-Machine-Learning-Portfolio.git)
+    git clone https://github.com/AdnanSag/-Data-Science-Machine-Learning-Portfolio.git
     ```
 2.  Install dependencies:
     ```bash
